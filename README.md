@@ -1,19 +1,19 @@
-## Analog Signal Generator
+## 🔊 Analog Signal Generator
 This project is part of my portfolio of evidence in electronic engineering.
 
 The Analog Signal Generator simulates the generation of three fundamental waveforms:
 
-> Square wave
+> ⬛ Square wave
 
-> Triangular wave
+> 🔺 Triangular wave
 
-> Sine wave
+> 〰️ Sine wave
 
 The circuit is designed using basic analog building blocks including the 555 Timer IC and operational amplifiers. Simulation was performed in Tinkercad.
 
 ---
 
-## Gallery
+## 🖼️ Gallery
 
 Circuit In Operation:
 		
@@ -21,7 +21,7 @@ Circuit In Operation:
 
 ---
 
-## Overview
+## 📝 Overview
 - A square wave is generated using an astable 555 timer.
 
 - A potentiometer is included to allow variable frequency control (0–1kHz range).
@@ -42,46 +42,46 @@ Circuit In Operation:
 
 ---
 
-## Circuit Simulation
+## 🔬 Circuit Simulation
 Platform: Autodesk Tinkercad
 
 Power supply: ±15V dual-rail setup.
 
 Circuit includes:
-- Breadboards
+- 🔌 Breadboards
 
-- 555 Timer IC
+- ⏱️ 555 Timer IC
 
-- General-purpose op-amps
+- 🔧 General-purpose op-amps
 
-- Resistors, capacitors, and potentiometers
+- 🔌 Resistors, capacitors, and potentiometers
 
-- Oscilloscopes to monitor waveform outputs
+- 📊 Oscilloscopes to monitor waveform outputs
 
 ---
 
-## Current Limitations and Planned Improvements
-> Modify 555 Timer circuit to allow variable duty cycle in addition to frequency control.
+## ⚠️ Current Limitations and Planned Improvements
+> 🔄 Modify 555 Timer circuit to allow variable duty cycle in addition to frequency control.
 
-> Add an AC-coupling ceramic capacitor to the input of the triangular waveform integrator.
+> ➕ Add an AC-coupling ceramic capacitor to the input of the triangular waveform integrator.
 
-> Troubleshoot why the negative halves of the triangular and sine waves appear clipped.
+> 🛠️ Troubleshoot why the negative halves of the triangular and sine waves appear clipped.
 
-> Explore replacing the 555 timer with a relaxation oscillator using op-amps.
+> 🔍 Explore replacing the 555 timer with a relaxation oscillator using op-amps.
 
-> Address simulation slowdown issues when adjusting the frequency potentiometer.
+> ⚡ Address simulation slowdown issues when adjusting the frequency potentiometer.
   (Tip: Set the slider to an end before selecting the desired frequency.)
 
-> Research higher-performance op-amps that would allow higher-frequency waveform generation.
+> 📈 Research higher-performance op-amps that would allow higher-frequency waveform generation.
 
 ---
 
-## License
+## 📜 License
 This project is open-source and free to use under the MIT License.
 
 ---
 
-## Acknowledgements
+## 🙏 Acknowledgements
 Inspired by classic analog function generator designs
 
 Simulated and tested using Autodesk Tinkercad
@@ -92,4 +92,3 @@ Simulated and tested using Autodesk Tinkercad
 
 Created by [Yasteer Sewpersad](https://github.com/Yasteer)  
 Electronic Engineering Portfolio of Evidence
-
